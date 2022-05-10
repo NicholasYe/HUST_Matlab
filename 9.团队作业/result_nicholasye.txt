@@ -1,0 +1,171 @@
+result one:
+
+  LINGO/WIN64 19.0.55 (5 May 2022 ), LINDO API 13.0.4099.342
+
+  Licensee info: Eval Use Only
+  License expires:  6 NOV 2022
+
+  Global optimal solution found.
+  Objective value:                              6160.000
+  Infeasibilities:                              0.000000
+  Total solver iterations:                             5
+  Elapsed runtime seconds:                          0.06
+
+  Model Class:                                        LP
+
+  Total variables:                     12
+  Nonlinear variables:                  0
+  Integer variables:                    0
+
+  Total constraints:                   12
+  Nonlinear constraints:                0
+
+  Total nonzeros:                      45
+  Nonlinear nonzeros:                   0
+
+
+
+                                Variable           Value        Reduced Cost
+                                     X11        1526.667            0.000000
+                                     X21        1017.778            0.000000
+                                     X31        0.000000            0.000000
+                                     X12        473.3333            0.000000
+                                     X22        1482.222            0.000000
+                                     X32        1200.000            0.000000
+                                     X13        0.000000            1.000000
+                                     X23        0.000000            0.000000
+                                     X33        0.000000           0.7000000
+                                      Y1        2544.444            0.000000
+                                      Y2        3155.556            0.000000
+                                      Y3        0.000000            0.000000
+
+                                     Row    Slack or Surplus      Dual Price
+                                       1        6160.000            1.000000
+                                       2        0.000000           -1.000000
+                                       3        0.000000           -1.000000
+                                       4        508.8889            0.000000
+                                       5        693.3333            0.000000
+                                       6        0.000000           0.7000000
+                                       7        0.000000            1.300000
+                                       8        0.000000           0.8000000
+                                       9        0.000000            1.300000
+                                      10        0.000000            0.000000
+                                      11        0.000000            0.000000
+                                      12        0.000000            0.000000
+
+
+----------------------------------
+
+result with high price(20%):
+
+  LINGO/WIN64 19.0.55 (5 May 2022 ), LINDO API 13.0.4099.342
+
+  Licensee info: Eval Use Only
+  License expires:  6 NOV 2022
+
+  Global optimal solution found.
+  Objective value:                              4370.000
+  Infeasibilities:                              0.000000
+  Total solver iterations:                             5
+  Elapsed runtime seconds:                          0.07
+
+  Model Class:                                        LP
+
+  Total variables:                     12
+  Nonlinear variables:                  0
+  Integer variables:                    0
+
+  Total constraints:                   12
+  Nonlinear constraints:                0
+
+  Total nonzeros:                      45
+  Nonlinear nonzeros:                   0
+
+
+
+                                Variable           Value        Reduced Cost
+                                     X11        1526.667            0.000000
+                                     X21        1017.778            0.000000
+                                     X31        0.000000            0.000000
+                                     X12        473.3333            0.000000
+                                     X22        1482.222            0.000000
+                                     X32        1200.000            0.000000
+                                     X13        0.000000            1.000000
+                                     X23        0.000000            0.000000
+                                     X33        0.000000           0.7000000
+                                      Y1        2544.444            0.000000
+                                      Y2        3155.556            0.000000
+                                      Y3        0.000000            0.000000
+
+                                     Row    Slack or Surplus      Dual Price
+                                       1        4370.000            1.000000
+                                       2        0.000000           -1.000000
+                                       3        0.000000           -1.000000
+                                       4        508.8889            0.000000
+                                       5        693.3333            0.000000
+                                       6        0.000000           0.7000000
+                                       7        0.000000           0.9000000
+                                       8        0.000000           0.5000000
+                                       9        0.000000            1.100000
+                                      10        0.000000            0.000000
+                                      11        0.000000            0.000000
+                                      12        0.000000            0.000000
+
+
+----------------------------------
+
+result with lower price(20%):
+
+  LINGO/WIN64 19.0.55 (5 May 2022 ), LINDO API 13.0.4099.342
+
+  Licensee info: Eval Use Only
+  License expires:  6 NOV 2022
+
+  Global optimal solution found.
+  Objective value:                              7950.000
+  Infeasibilities:                              0.000000
+  Total solver iterations:                             5
+  Elapsed runtime seconds:                          0.06
+
+  Model Class:                                        LP
+
+  Total variables:                     12
+  Nonlinear variables:                  0
+  Integer variables:                    0
+
+  Total constraints:                   12
+  Nonlinear constraints:                0
+
+  Total nonzeros:                      45
+  Nonlinear nonzeros:                   0
+
+
+
+                                Variable           Value        Reduced Cost
+                                     X11        1526.667            0.000000
+                                     X21        1017.778            0.000000
+                                     X31        0.000000            0.000000
+                                     X12        473.3333            0.000000
+                                     X22        1482.222            0.000000
+                                     X32        1200.000            0.000000
+                                     X13        0.000000            1.000000
+                                     X23        0.000000            0.000000
+                                     X33        0.000000           0.7000000
+                                      Y1        2544.444            0.000000
+                                      Y2        3155.556            0.000000
+                                      Y3        0.000000            0.000000
+
+                                     Row    Slack or Surplus      Dual Price
+                                       1        7950.000            1.000000
+                                       2        0.000000           -1.000000
+                                       3        0.000000           -1.000000
+                                       4        508.8889            0.000000
+                                       5        693.3333            0.000000
+                                       6        0.000000           0.7000000
+                                       7        0.000000            1.700000
+                                       8        0.000000            1.100000
+                                       9        0.000000            1.500000
+                                      10        0.000000            0.000000
+                                      11        0.000000            0.000000
+                                      12        0.000000            0.000000
+
